@@ -1,27 +1,17 @@
 import FriendCart from '@/components/ui/FriendCart';
 import React from 'react';
+import friendsData from '../../../../public/friendData.json';
 
-export const dynamic = 'force-dynamic';
+const Friends = () => {
+    const friends = friendsData;
 
-const PromiseData = async () => {
-  const res = await fetch('http://localhost:3000/friendData.json', {
-  cache: 'no-store'
-});
-
-  const data = await res.json();
-  return data.friends;
-};
-
-const Friends = async () => {
-  const friends = await PromiseData();
-
-  return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-      {friends.map(friend => (
-        <FriendCart key={friend.id} friend={friend} />
-      ))}
-    </div>
-  );
+    return (
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            {
+                friends.map(friend=><FriendCart key={friend.id} friend={friend} />)
+            }
+        </div>
+    );
 };
 
 export default Friends;

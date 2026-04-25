@@ -1,44 +1,64 @@
+<img src="https://i.ibb.co.com/pBMgGgc3/medme.png" alt="KeenKeeper Banner" width="100%" />
+
+---
+
 # 👨‍👩‍👧‍👦 KeenKeeper — Keep Your Friendships Alive
 
-**KeenKeeper** is a modern relationship management tool designed to help users maintain and strengthen their personal connections. It intelligently reminds you when to reconnect, ensuring no friendship fades away over time.
+**KeenKeeper** is a smart relationship management tool designed to help users track and nurture their connections. It reminds you when it's time to reach out to friends, ensuring no relationship is left behind.
+
+**🚀 Live Demo**
+[**View Live Project**](https://programing-assignment-7.vercel.app/)
 
 ---
 
-## ✨ Key Features
+### 1. 👫 Smart Connection Management
 
-### 👫 Smart Connection Management
-
-* **Dashboard Overview:** Instantly view total friends, on-track connections, and those needing attention through clean summary cards.
-* **Dynamic Status System:** Automatically classifies friends as **Overdue**, **Almost Due**, or **On-Track** based on interaction history and goals.
+- **Dashboard Overview:** Displays total friends, connections on track, and those needing urgent attention through summary cards
+- **Dynamic Status Logic:** Automatically categorizes friends as `Overdue`, `Almost Due`, or `On-Track` based on the last contact date and communication goals.
 
 ---
 
-### 👤 Dynamic Friend Details
+### 2. 👤 Dynamic Friend Details
 
-A clean and responsive layout that provides deep insights into each connection:
+A two-column layout providing deep insights into each connection:
 
-* **Real-time Metrics:** Track days since last contact and upcoming due dates.
-* **Quick Check-In:** Log interactions instantly (Call, Text, Video).
-* **Action Controls:** Easily Snooze, Archive, or Delete connections with intuitive UI controls.
+- **Real-time Stats:** Track days since last contact and upcoming due dates.
+- **Quick Check-In:** Instantly log interactions (Call, Text, or Video).
+- **Interactive Actions:** Professional buttons for Snoozing, Archiving, or Deleting connections.
+
+### 3. 📜 Interaction Timeline
+
+A dedicated history page that logs every call, text, or video session.
+
+- Automatically updates when a check-in is performed.
+- Filterable history to track specific types of communication.
+
+### 4. 📊 Friendship Analytics
+
+A visual **Pie Chart** powered by Recharts on the Stats page, showing the distribution of your communication methods (Call vs. Text vs. Video).
+
+## 5. 🛠️ Technologies Used
+
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS & DaisyUI
+- **Icons:** React Icons
+- **Charts:** Recharts (for Friendship Analytics)
+- **Navigation:** Next.js Link & App Router
+- **Data Fetching:** Fetch API (from GitHub JSON source)
+- **Notifications:** React Hot Toast / Toastify
+
+  ***
+
+# 👨‍💻 Author
+
+<div align="center">
+  <h2>M. Amirul Islam</h2>
+  <p><strong>Junior Front-End Web Developer</strong> based in Dhaka, Bangladesh</p>
+
+  <p>
+    <a href="https://github.com/amirulislambd"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.linkedin.com/in/m-amirulislam/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  </p>
+</div>
 
 ---
-
-### 📜 Interaction Timeline
-
-* Dedicated timeline page to track all interactions.
-* Automatically updates whenever a new check-in is added.
-* Filter interactions by type (Call, Text, Video) for better tracking.
-
----
-
-### 📊 Friendship Analytics
-
-* Interactive **Pie Chart** built with Recharts.
-* Visual breakdown of communication methods (Call vs Text vs Video).
-* Helps users understand and improve their communication habits.
-
----
-
-## 🚀 Goal
-
-KeenKeeper helps you stay consistent with your relationships by combining smart tracking, visual insights, and simple interaction tools — all in one place.

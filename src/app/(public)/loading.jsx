@@ -3,7 +3,7 @@ import React from "react";
 const GlobalLoading = () => {
   return (
     <div className="fixed flex flex-col items-center justify-center inset-0 z-[9999]">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center select-none">
         <div className="bg-white/80 h-20 w-20 p-2 backdrop:blur-2xl rounded-full relative border-4 border-zinc-100 border-t-green-600 animate-spin "></div>
         <div className="w-10 h-10 absolute flex items-center justify-center bg-green-600 shadow-xl shadow-green-200  rounded-full">
           <p className="text-white font-bold">KK</p>

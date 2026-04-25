@@ -7,9 +7,7 @@ import { toast } from "react-toastify";
 
 const CallButtons = ({ friend }) => {
   const { friendData, setFriendData } = useContext(frContext);
-  //   console.log(friendData, setFriendData);
-  // console.log(friend)
-
+  
   const handleCall = (type) => {
     const newEntry = {
       id: Date.now(),
@@ -25,7 +23,6 @@ const CallButtons = ({ friend }) => {
       
     });
   };
-  //   console.log(friendData);
 
   return (
     <div>
